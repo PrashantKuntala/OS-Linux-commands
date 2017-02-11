@@ -1,6 +1,6 @@
 /* Following program prints file contents and file attributes. similar to the cat command.
 
-	Authors : Charvi Dhingra and Prashant Kuntala.
+	Authors : Prashant Kuntala and Chinky Dhingra.
 
 	usage : type make to compile the program and then to execute type the command as below.
 
@@ -352,19 +352,7 @@ void main(int argc, char *argv[]){
     	strcpy(tokens[noOfTokens++],token);
       	token = strtok(NULL, s);
    	}
-/* stupid thought trying to create a file using system calls !
-char *filename = argv[2];
-	printf("file name %s \n",fds);
-int fds = open(filename, O_WRONLY | O_CREAT, 0777);
-  char i;
-  char j = '\0';
-	printf("file created %d \n",fds);
-  for (i = 48; i < 57 ; i++) {
-    write(fds, &i, sizeof(char));
-   }
-write(fds,&j,sizeof(char));
-  close(fds);
-*/
+
 	struct ext2_super_block superBlock; /*super block Access */
  	struct ext2_group_desc gtDesc; /*Group Descriptor Access*/
 
