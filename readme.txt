@@ -1,9 +1,6 @@
-# OS-Linux-commands
-An C implementation of Linux commands  :  ls  and cat 
-
 /*Read me*/
 
-Authors :  Prashant Kuntala and Chinky Dhingra
+Authors : Charvi Dhingra and Prashant Kuntala.
 
 /* For the program that prints file contents and file attributes. similar to the cat command.
 
@@ -27,21 +24,3 @@ Authors :  Prashant Kuntala and Chinky Dhingra
 */
 
 Also find the filesystem we worked on in the folder. "fsy" is the name of the test filesystem we used for development purpose.
-
-You can mount the filesystem "fsy" with below commands
-------------------------------------------------------
-
-mkdir Test
-sudo mount fsy ./Test
-
-/* cd into the Test directory to view the contents of the filesystem. Create folders or files if needed. Now use one of the above complied commands on the filesystem */
-
-to unmount the filesystem
--------------------------
- 
- sudo umount fsy
- 
-
- 
-
-
