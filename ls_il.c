@@ -3,7 +3,7 @@
 	This program also prints the inode number , permissions , filesize, uid, gid , ilink count and time for each file and folder
 	similar to the functionality of ls -il.
 
-	Authors : Charvi Dhingra and Prashant Kuntala.
+	Authors : Prashant Kuntala and Chinky Dhingra.
 
 	usage : type make to compile the program and then to execute type the command as below.
 
